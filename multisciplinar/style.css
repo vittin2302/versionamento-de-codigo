@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: #4FD1C5;
+}
+
+.desc{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.desc sobre{
+    text-align: justify;
+}
+
+.mSo{
+    text-align: center;
+}
+
+.desc_faz{
+    margin: 15px;
+    display: flex;
+    text-align: center;
+    gap: 40px;
+}
+
+.faz{
+    background-color: #E2E8F0;
+    padding: 20px;
+}
+
+.download{
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
