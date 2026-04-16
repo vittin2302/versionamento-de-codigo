@@ -20,15 +20,23 @@ nav a{
 }
 
 .desc{
-    padding: 200px;
-    background-image: url(fotoPromocional.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
 
-.desc .sobre{
-    text-align: left;
-    color: white;
+.sobre{
+    width: 40%;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.foto img{
+    width: 500px;
+    max-width: 100%;
+    border-radius: 12px;
 }
 
 .mSo{
@@ -36,15 +44,17 @@ nav a{
 }
 
 .desc_faz{
-    margin: 15px;
+    margin: 40px;
     display: flex;
-    text-align: center;
-    gap: 40px;
+    justify-content: center;
+    gap: 30px;
 }
 
 .faz{
     background-color: #E2E8F0;
-    padding: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    width: 300px;
 }
 
 .download{
